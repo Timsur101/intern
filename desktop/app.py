@@ -40,7 +40,7 @@ def on_ws_close(ws, code, msg):
 
 def start_ws(user_id):
     global ws_conn
-    url = f"ws://localhost:8000/ws/status/{user_id}"
+    url = f"ws://127.0.0.1:8000/ws/status/{user_id}"
     print(f"[ws] connecting to {url}")
     ws_conn = websocket.WebSocketApp(
         url,
