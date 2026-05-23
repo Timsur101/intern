@@ -48,3 +48,6 @@ pytest tests/ -v
 
 Прописать в docker-compose.yml переменные SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD.
 Можно использовать Mailtrap для тестирования.
+
+## Ссылка на видео с работой программы
+https://drive.google.com/file/d/1qoEFJ0VzYk-c7YLNn4SJbPdchPzcQPyC/view?usp=sharing
